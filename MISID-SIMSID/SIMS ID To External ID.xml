@@ -1,0 +1,24 @@
+<SuperStarReport>
+  <xs:schema id="SuperStarReport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="SuperStarReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Record">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="primary_id" type="xs:int" minOccurs="0" />
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="External_x0020_Id" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Record>
+    <primary_id>1337</primary_id>
+    <ID>1337</ID>
+    <External_x0020_Id>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</External_x0020_Id>
+  </Record>
+</SuperStarReport>
